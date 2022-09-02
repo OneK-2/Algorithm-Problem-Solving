@@ -28,6 +28,7 @@ public static class FastReader {
             return str;
         }
     }
+    //코드출처: ndb796
 
 ```
-FastReader 코드출처: ndb796
+
