@@ -36,3 +36,9 @@ public class Boj1181 {
         System.out.print(sb);
     }
 }
+/**
+ * treeset을 활용한 방법 참고
+ *
+ * TreeSet<String> words = new TreeSet<>(Comparator.comparing(String::length)
+ *                 .thenComparing(Comparator.naturalOrder()));
+ */
