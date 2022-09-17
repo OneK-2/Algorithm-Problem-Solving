@@ -23,3 +23,17 @@ public class Boj2839 {
         System.out.println(-1);
     }
 }
+
+//좀더 정갈해 보이는 코드
+//
+// 	while(true) {
+// 			if(N%5 ==0) {
+// 				System.out.println(N/5 + sum);
+// 				break;
+// 			}else if(N < 0) {
+// 				System.out.println(-1);
+// 				break;
+// 			}
+// 			N = N-3;
+// 		    sum++;
+// 		}
